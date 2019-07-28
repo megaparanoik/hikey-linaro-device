@@ -23,3 +23,7 @@ PRODUCT_NAME := hikey960
 PRODUCT_DEVICE := hikey960
 PRODUCT_BRAND := Android
 PRODUCT_MODEL := AOSP on hikey960
+
+PRODUCT_PACKAGES += \
+  LedControlService \
+  LedControlApp \
